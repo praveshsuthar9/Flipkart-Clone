@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------Comman-Class-Start-------- */
+
+a {
+  text-decoration: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px 0;
+}
+
+/* -------Comman-Class-End-------- */
+
+/* ----------header-Start-------------- */
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #2874f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  padding: 5px 2px;
+}
+
+
+.logo-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-t i{
+  display: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.search {
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  padding: 8px;
+}
+
+.search input {
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  padding: 0px 3px;
+  border: none;
+  outline: none;
+}
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+  margin-right: 25px;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+.btn button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffff;
+  color: #2874f0;
+  padding: 6px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----------header-End-------------- */
+
+/* -------------nav-product-container-Start---- */
+
+.nav-product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-product a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-product img {
+  width: 80px;
+  object-fit: contain;
+  transition: transform 0.3s linear;
+}
+
+.nav-product img:hover {
+  transform: scale(1.1);
+}
+
+.nav-product a p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  transition: all 0.3s linear;
+}
+
+.nav-product a:hover p {
+  color: #2874f0;
+}
+
+/* -------------nav-product-container-End---- */
+
+/* --------home-page-container-Start----------- */
+
+.mySwiper {
+  position: relative;
+}
+
+.mySwiper .prev {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  z-index: 1;
+}
+
+.mySwiper .prev i {
+  font-size: 18px;
+  padding: 30px 14px;
+  color: #222;
+}
+
+.mySwiper .next {
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  z-index: 1;
+}
+
+.mySwiper .next i {
+  font-size: 18px;
+  padding: 30px 14px;
+  color: #222;
+}
+
+.home-imgage img {
+  width: 100%;
+}
+
+.e-product-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ------------electronic-container------------ */
+
+.electronic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.electronic-container .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  padding: 20px 14px;
+}
+.electronic-container .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  padding: 20px 14px;
+}
+
+.e-view {
+  width: 20%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(images/electronic-p-2.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.e-view h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.e-product-container {
+  width: 60%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.e-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.3s linear;
+}
+
+.e-image img:hover {
+  transform: scale(0.9);
+}
+
+.e-content {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.e-content h6 {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.e-content h6 span {
+  color: seagreen;
+}
+
+.e-content p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+
+.e-product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ----------toy-view------- */
+
+.toys-view {
+  width: 20%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(images/e-v-img_files/toys.png);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.toys-view h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #2874f0;
+}
+
+.t-product-container {
+  width: 80%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.e-btn button {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 14px 30px;
+  margin-top: 25px;
+  background-color: #fff;
+  border: none;
+  color: #2874f0;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+}
+
+.e-btn button:hover {
+  background-color: #2874f0;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+/* ----------indigo-c------- */
+
+.indigo-c {
+  width: 20%;
+  height: 350px;
+  background-image: url(images/e-v-img_files/flight.jpg);
+  background-position: 100% 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+}

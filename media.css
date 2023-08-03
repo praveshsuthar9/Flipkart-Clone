@@ -1,0 +1,313 @@
+@media screen and (max-width: 1026px) {
+  .container {
+    width: auto;
+  }
+
+  /* -------comman-class----- */
+
+  .mySwiper .prev i,
+  .mySwiper .next i {
+    font-size: 12px;
+    padding: 26px 12px;
+    color: #222;
+  }
+
+  /* -------------header-container---------- */
+
+  header {
+    width: 100%;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .search {
+    width: 26%;
+  }
+
+  .search input {
+    font-size: 16px;
+  }
+
+  .btn button {
+    font-size: 18px;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  /* -------header-container-end---- */
+
+  /* ---------nav-product------ */
+
+  .nav-product {
+    width: auto;
+    overflow-x: scroll;
+  }
+
+  .nav-product img {
+    width: 60%;
+  }
+
+  .nav-product a p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  /*-------- electronic-contaqiner------------- */
+
+  .e-view h1 {
+    font-size: 22px;
+  }
+  .toys-view h1 {
+    font-size: 22px;
+  }
+
+  .e-btn button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+  .e-image img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s linear;
+  }
+
+  .e-content h6 {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .e-content p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .logo img {
+    width: 90px;
+  }
+
+  .search {
+    width: 25%;
+  }
+
+  .search input {
+    font-size: 12px;
+  }
+
+  .search i {
+    font-size: 12px;
+  }
+
+  .btn button {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ffff;
+    color: #2874f0;
+    padding: 6px 18px;
+    border: none;
+    cursor: pointer;
+  }
+
+  nav ul li a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .container {
+    width: auto;
+    padding: 0 2%;
+  }
+
+  .mySwiper .prev {
+    position: absolute;
+    top: 35%;
+    left: 0px;
+    z-index: 1;
+  }
+  .mySwiper .prev i {
+    font-size: 12px;
+    padding: 16px 6px;
+    color: #222;
+  }
+  .mySwiper .next i {
+    font-size: 12px;
+    padding: 16px 6px;
+    color: #222;
+  }
+
+  .e-btn button {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  /* ------header--------- */
+
+  header {
+    width: auto;
+    flex-wrap: wrap;
+    height: 90px;
+    position: relative;
+    justify-content: space-between;
+    gap: 0;
+    padding: 5px;
+    z-index: 999;
+  }
+
+  .nav-t i {
+    display: block;
+    font-size: 14px;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+
+  .search {
+    order: 3;
+    width: 100%;
+  }
+
+  .search input {
+    font-size: 12px;
+  }
+
+  .search i {
+    font-size: 12px;
+  }
+
+  .btn button {
+    font-size: 12px;
+    padding: 6px 16px;
+  }
+
+  nav {
+    position: absolute;
+    top: 100%;
+    left: -50;
+    width: 80%;
+    height: 100vh;
+    background-color: #2874f0;
+    text-align: center;
+    display: none;
+    transition: all 0.3s linear;
+  }
+
+  nav ul {
+    display: block;
+    left: 0;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  nav ul li {
+    margin-top: 30px;
+  }
+
+  .toggle{
+    display: block;
+    transition: all 0.3s linear;
+  }
+
+  /*-------- nav-product -------- */
+
+  .nav-product {
+    width: auto;
+    gap: 50px;
+    padding: 15px 0;
+    overflow-x: scroll;
+    text-align: center;
+  }
+
+  .nav-product img {
+    width: 50px;
+  }
+
+  .nav-product a p {
+    font-size: 10px;
+  }
+
+  /* --------home-page-container------ */
+
+  .home-image img {
+    width: 100%;
+    height: 150px;
+  }
+
+  /* ---------electronic-container----- */
+
+  .electronic-container {
+    display: block;
+  }
+
+  .e-view {
+    width: auto;
+    height: 250px;
+  }
+
+  .e-image img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  .e-content {
+    padding-top: 16px;
+  }
+
+  .e-content h6 {
+    padding-top: 5px;
+    font-size: 10px;
+  }
+
+  .e-content p {
+    padding-top: 5px;
+    font-size: 8px;
+  }
+
+  .e-product-container {
+    width: auto;
+    height: 250px;
+  }
+  .t-product-container {
+    width: auto;
+    height: 250px;
+  }
+
+  .e-view h1 {
+    font-size: 30px;
+  }
+
+  .indigo-c {
+    width: auto;
+    height: 250px;
+    background-position: 100%;
+  }
+
+  /* ----------toy-container----- */
+
+  .toys-view {
+    width: auto;
+    height: 250px;
+    background-position: 60%;
+    background-size: contain;
+  }
+
+  .toys-view h1 {
+    font-size: 30px;
+    color: red;
+  }
+}
